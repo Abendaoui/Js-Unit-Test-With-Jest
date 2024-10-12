@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+div.div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  gap: 50px;
+}
+
+button {
+  border: none;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: wheat;
+  color: rgb(79, 78, 78);
+}
+.card button{
+  margin: 10px;
+}
